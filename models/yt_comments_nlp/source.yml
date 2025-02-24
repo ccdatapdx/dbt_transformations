@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: yt_comments
+    schema: yt_comments_nlp
+    tables:
+     - name: ner_data_Linus Tech Tips
+     - name: pos_data_Linus Tech Tips
