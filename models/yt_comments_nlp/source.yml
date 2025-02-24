@@ -5,3 +5,14 @@ sources:
     tables:
      - name: ner_data_Linus Tech Tips
      - name: pos_data_Linus Tech Tips
+     - name: staging_orgs
+     - name: staging_people
+     - name: staging_products
+     - name: staging_proper_nouns
+     - name: staging_verbs
+     - name: reporting_latest_week_orgs
+     - name: reporting_latest_week_people
+     - name: reporting_latest_week_products
+     - name: reporting_latest_week_proper_nouns
+     - name: reporting_latest_week_verbs
+
