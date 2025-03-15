@@ -36,7 +36,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  my_new_project:
+  cc_dwh:
     # Applies to all files under models/example/
-    example:
+    techmeme_nlp:
       +materialized: table
+      +schema: techmeme_nlp
+    yt_comments_nlp:
+      +materialized: table
+      +schema: yt_comments_nlp
+
+    
