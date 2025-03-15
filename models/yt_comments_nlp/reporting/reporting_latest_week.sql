@@ -1,7 +1,7 @@
 with source as 
 (
     select *
-    from {{ source("yt_comments", "staging_pos_ner") }}
+    from {{ ref("staging_pos_ner") }}
 )
 
 select

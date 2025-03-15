@@ -18,3 +18,11 @@ sources:
      - name: reporting_latest_week_proper_nouns
      - name: reporting_latest_week_verbs
 
+  - name: techmeme_headlines
+    schema: techmeme_nlp
+    tables:
+      - name: techmeme_ner
+      - name: staging_techmeme_ner 
+
+  
+

@@ -1,7 +1,7 @@
 with source as 
 (
     select * 
-    from {{ source("yt_comments", "staging_products") }}
+    from {{ ref("staging_products") }}
 )
 
 select ner_text as entity, sum(ner_count) as entity_count
