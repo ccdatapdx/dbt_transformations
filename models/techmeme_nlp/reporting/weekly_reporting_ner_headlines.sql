@@ -1,3 +1,7 @@
+{{ config(
+    schema='techmeme_nlp'
+) }}
+
 with source as (
 
     select *

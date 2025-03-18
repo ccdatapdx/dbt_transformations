@@ -27,7 +27,7 @@ sources:
       - name: weekly_reporting_pubs
       - name: weekly_reporting_headlines
       - name: weekly_reporting_ner_headlines
-      - name: weekly_reporting_pubs
+     
 
   
 
