@@ -22,7 +22,12 @@ sources:
     schema: techmeme_nlp
     tables:
       - name: techmeme_ner
-      - name: staging_techmeme_ner 
+      - name: staging_techmeme_ner
+      - name: staging_weekly_reporting
+      - name: weekly_reporting_pubs
+      - name: weekly_reporting_headlines
+      - name: weekly_reporting_ner_headlines
+      - name: weekly_reporting_pubs
 
   
 
